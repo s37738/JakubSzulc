@@ -1,0 +1,153 @@
+Średnia ocen:
+
+class Program
+
+    {
+
+        static void Main(string[] args)
+
+        {
+
+            Console.Write("podaj imię: ");
+
+            string imie = Console.ReadLine();
+
+
+
+            Console.Write("podaj pierwszą ocenę: ");
+
+            int ocena1 = Convert.ToInt32(Console.ReadLine());
+
+
+
+            Console.Write("podaj drugą ocenę: ");
+
+            int ocena2 = Convert.ToInt32(Console.ReadLine());
+
+
+
+            Console.Write("podaj trzecią ocenę: ");
+
+            int ocena3 = Convert.ToInt32(Console.ReadLine());
+
+
+
+            if (ocena1 < 1 || ocena1 > 6 || ocena2 < 1 || ocena2 > 6 || ocena3 < 1 || ocena3 > 6)
+
+            {
+
+                Console.WriteLine("błąd, oceny muszą być liczbami całkowitymi od 1 do 6");
+
+                Console.ReadKey();
+
+                return;
+
+            }
+
+
+
+            double srednia = (ocena1 + ocena2 + ocena3)/3.0;
+
+
+
+            string wynik = "";
+
+
+
+            if (srednia >= 3.0) 
+
+            {
+
+                wynik = "Zaliczone!";
+
+            }
+
+            else
+
+            {
+
+                wynik = "Nie zaliczone.";
+
+            }
+
+
+
+            Console.WriteLine($"{imie} twoja średnia to {srednia}. {wynik}");
+
+
+
+            Console.ReadKey();
+
+        }
+
+    }
+
+
+
+Gra:
+
+using System;
+
+
+
+class Program
+
+{
+
+    static void Main()
+
+    {
+
+
+
+        Random rnd = new Random();
+
+        int liczba = rnd.Next(1, 101); 
+
+        int strzal = 0;
+
+
+
+        while (strzal != liczba)
+
+        {
+
+            Console.Write("Zgadnij liczbę od 1 do 100: ");
+
+            strzal = Convert.ToInt32(Console.ReadLine());
+
+
+
+            if (strzal < liczba)
+
+            {
+
+                Console.WriteLine("Za mało!");
+
+            }
+
+            else if (strzal > liczba)
+
+            {
+
+                Console.WriteLine("Za dużo!");
+
+            }
+
+            else
+
+            {
+
+                Console.WriteLine("Brawo! Zgadłeś!");
+
+            }
+
+
+
+            Console.WriteLine();
+
+        }
+
+    }
+
+}
