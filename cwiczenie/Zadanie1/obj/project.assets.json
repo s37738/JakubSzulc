@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s37738\\impreza\\JakubSzulc\\JakubSzulc\\cwiczenie\\Zadanie1PPGR\\Zadanie1PPGR.csproj",
-      "projectName": "Zadanie1PPGR",
-      "projectPath": "C:\\Users\\s37738\\impreza\\JakubSzulc\\JakubSzulc\\cwiczenie\\Zadanie1PPGR\\Zadanie1PPGR.csproj",
+      "projectUniqueName": "C:\\Users\\s37738\\impreza\\JakubSzulc\\JakubSzulc\\cwiczenie\\Zadanie1\\Zadanie1.csproj",
+      "projectName": "Zadanie1",
+      "projectPath": "C:\\Users\\s37738\\impreza\\JakubSzulc\\JakubSzulc\\cwiczenie\\Zadanie1\\Zadanie1.csproj",
       "packagesPath": "C:\\Users\\s37738\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s37738\\impreza\\JakubSzulc\\JakubSzulc\\cwiczenie\\Zadanie1PPGR\\obj\\",
+      "outputPath": "C:\\Users\\s37738\\impreza\\JakubSzulc\\JakubSzulc\\cwiczenie\\Zadanie1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\s37738\\AppData\\Roaming\\NuGet\\NuGet.Config"
