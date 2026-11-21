@@ -1,4 +1,4 @@
-# Repozytorium studenta - Jakub Szulc
-W repo znajdować się będą głównie rozwiązania do zadań + projekty
-Magiczna kraina mlekiem i miodem płynąca
-_„Kto nie zna ani wroga, ani siebie, nieuchronnie ponosi klęskę w każdej walce”_
+# Repozytorium studenta - Jakub Szulc  
+W repo znajdować się będą głównie rozwiązania do zadań + projekty  
+Magiczna kraina mlekiem i miodem płynąca  
+_„Kto nie zna ani wroga, ani siebie, nieuchronnie ponosi klęskę w każdej walce”_  
